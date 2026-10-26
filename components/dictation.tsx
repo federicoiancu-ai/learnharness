@@ -89,6 +89,7 @@ import { Hint } from "@/components/ui/hint";
 const DG_URL =
 	"wss://api.deepgram.com/v1/listen" +
 	"?model=nova-3" +
+	"&language=it" + // fork `italiano`: Italian dictation
 	"&encoding=linear16" +
 	"&sample_rate=16000" +
 	"&channels=1" +
