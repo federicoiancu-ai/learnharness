@@ -33,3 +33,5 @@ Facoltativi: chiave **Tavily** o **Brave** per la ricerca web, **Deepgram** per 
 ## Test su Windows
 
 `npm test`: 13 test dell'originale falliscono su Windows anche senza le nostre modifiche (permessi dei file, script di rilascio per macOS e Linux).
+
+⚠️ Su Windows alcuni test scrivono sessioni finte nella cartella `data/` vera. Lanciali con una cartella temporanea: `LH_DATA_DIR="$TEMP/lh-test" npm test`.
