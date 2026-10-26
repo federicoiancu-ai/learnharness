@@ -22,6 +22,7 @@ Se l'unione va in conflitto, la annulla e avvia la versione attuale. `LearnHarne
 | `tests/language.test.ts` | Test dell'istruzione di lingua. |
 | `.npmrc` | Su Windows gli script npm girano con Git Bash. |
 | `avvia.ps1`, `LearnHarness.cmd`, `LEGGIMI.md` | Avvio e aggiornamento automatico. |
+| `CLAUDE.md` | Istruzioni per Claude Code su questo fork. |
 
 Le modifiche sono piccole e in file separati, così gli aggiornamenti dell'originale si uniscono senza conflitti.
 
